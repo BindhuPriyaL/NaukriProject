@@ -10,6 +10,7 @@ public class WindowHandling extends TestBase{
 		for(String winHandle : driver.getWindowHandles()){
 			System.out.println("Total windows are "+ driver.getWindowHandles().size());
 			driver.switchTo().window(winHandle);
+			
 		}
 	}
 	

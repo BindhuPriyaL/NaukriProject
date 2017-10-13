@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="17333" started-at="2017-10-13T13:30:52Z" finished-at="2017-10-13T13:31:09Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="17333" started-at="2017-10-13T13:30:52Z" finished-at="2017-10-13T13:31:09Z">
+      <class name="com.selenium.naukri.NaukriResumeUpdate.LoginPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.naukri.NaukriResumeUpdate.LoginPage@776aec5c]" name="setup" is-config="true" duration-ms="6853" started-at="2017-10-13T19:00:45Z" finished-at="2017-10-13T19:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="naukriLogin()[pri:0, instance:com.selenium.naukri.NaukriResumeUpdate.LoginPage@776aec5c]" name="naukriLogin" duration-ms="5973" started-at="2017-10-13T19:00:52Z" finished-at="2017-10-13T19:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naukriLogin -->
+        <test-method status="PASS" signature="deleteUploadResume()[pri:0, instance:com.selenium.naukri.NaukriResumeUpdate.LoginPage@776aec5c]" name="deleteUploadResume" duration-ms="11339" started-at="2017-10-13T19:00:58Z" depends-on-methods="com.selenium.naukri.NaukriResumeUpdate.LoginPage.naukriLogin" finished-at="2017-10-13T19:01:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUploadResume -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.naukri.NaukriResumeUpdate.LoginPage@776aec5c]" name="tearDown" is-config="true" duration-ms="731" started-at="2017-10-13T19:01:09Z" finished-at="2017-10-13T19:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.naukri.NaukriResumeUpdate.LoginPage -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

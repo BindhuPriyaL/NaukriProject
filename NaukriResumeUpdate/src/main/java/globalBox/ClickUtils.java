@@ -18,8 +18,8 @@ public class ClickUtils extends TestBase{
 	 * @param xpathValue
 	 */
 	public static void clickWebElementByXpath(String xpathValue) {
-		System.out.println("xpath of element to be clicked is - "+xpathValue);
-		new WebDriverWait(driver, 50).until(ExpectedConditions.elementToBeClickable(By.xpath(xpathValue)));
+		//System.out.println("xpath of element to be clicked is - "+xpathValue);
+		new WebDriverWait(driver, 6000).until(ExpectedConditions.elementToBeClickable(By.xpath(xpathValue)));
 		driver.findElement(By.xpath(xpathValue)).click();
 	}
 	

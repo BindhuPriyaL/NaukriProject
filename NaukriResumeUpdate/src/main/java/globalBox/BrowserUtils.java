@@ -23,7 +23,7 @@ public class BrowserUtils extends TestBase {
 			driver = new InternetExplorerDriver();
 		}
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
 	public static void navigate(String URL) {
